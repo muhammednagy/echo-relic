@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/labstack/echo"
+	"github.com/labstack/echo/v4"
 	newrelic "github.com/newrelic/go-agent"
 	"github.com/stretchr/testify/suite"
 )

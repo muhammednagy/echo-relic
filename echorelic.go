@@ -1,7 +1,7 @@
 package echorelic
 
 import (
-	"github.com/labstack/echo"
+	"github.com/labstack/echo/v4"
 	newrelic "github.com/newrelic/go-agent"
 )
 
@@ -32,7 +32,6 @@ func (e *EchoRelic) Transaction(next echo.HandlerFunc) echo.HandlerFunc {
 		txn.AddAttribute("IsWebSocket", c.IsWebSocket())
 		txn.AddAttribute("Query", c.QueryString())
 		defer txn.End()
-		next(c)
-		return nil
+		return next(c)
 	}
 }
