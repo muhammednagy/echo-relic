@@ -1,4 +1,4 @@
-module github.com/jessie-codes/echo-relic/v3
+module github.com/muhammednagy/echo-relic/v3
 
 go 1.13
 
