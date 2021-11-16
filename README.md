@@ -1,9 +1,9 @@
 # echo-relic
 Echo middleware for [New Relic](https://newrelic.com/)
 
-[![GoDoc](https://godoc.org/github.com/jessie-codes/echo-relic?status.svg)](https://godoc.org/github.com/jessie-codes/echo-relic)
-[![Build Status](https://travis-ci.org/jessie-codes/echo-relic.svg?branch=master)](https://travis-ci.org/jessie-codes/echo-relic)
-[![Coverage Status](https://coveralls.io/repos/github/jessie-codes/echo-relic/badge.svg?branch=master)](https://coveralls.io/github/jessie-codes/echo-relic?branch=master)
+[![GoDoc](https://godoc.org/github.com/muhammednagy/echo-relic?status.svg)](https://godoc.org/github.com/jessie-codes/echo-relic)
+[![Build Status](https://travis-ci.org/muhammednagy/echo-relic.svg?branch=master)](https://travis-ci.org/jessie-codes/echo-relic)
+[![Coverage Status](https://coveralls.io/repos/github/muhammednagy/echo-relic/badge.svg?branch=master)](https://coveralls.io/github/jessie-codes/echo-relic?branch=master)
 
 ## install
 
