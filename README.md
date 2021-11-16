@@ -7,7 +7,7 @@ Echo middleware for [New Relic](https://newrelic.com/)
 
 ## install
 
-`go get github.com/jessie-codes/echo-relic`
+`go get github.com/muhammednagy/echo-relic`
 
 ## Usage
 
@@ -20,7 +20,7 @@ package main
 import (
 	"github.com/labstack/echo"
 	"github.com/newrelic/go-agent"
-	"github.com/jessie-codes/echo-relic/v3"
+	"github.com/muhammednagy/echo-relic/v3"
 )
 
 func main() {
